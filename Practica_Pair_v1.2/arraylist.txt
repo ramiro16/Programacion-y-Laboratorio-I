@@ -1,0 +1,26 @@
+1er- crear arraylist
+
+crear 3 empleados. implementar,
+
+
+Creacion de empleado: employee* e1 = newEmployee(1,"Juan");
+
+
+una vez que estan los 3 empleados, agregar los 3 a la lista
+
+
+Funcion ADD para agregar empleados a la lista:
+Lista->add(lista,e1) <- recibe el mismo arraylist mas el elemento que quiero agregar
+
+lista->get
+
+for(i=0;i<AL->len(AL),i++)
+{
+ 
+	employee* e=(employee*) lista->get(lista,i) <-----casteo // agarra cada elemento, lo castea y se lo asigna a un empleado;
+	printEmployee(employe);
+
+}
+
+
+lograr leer desde el archivo cada emppleado y guardarlo en el arraylist
